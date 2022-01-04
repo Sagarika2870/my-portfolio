@@ -6,31 +6,8 @@ export default function About(){
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Hi, I'm Sagarika! 
                     </h1> 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    <p className="flex justify-center text-white">
-=======
-                    <p>
->>>>>>> parent of 08ce1ecb (centered about text and linked resume properly)
-=======
                     <p className="flex justify-center">
->>>>>>> parent of 4d5621aa (added routes and aboutme)
-=======
-                    <p className="flex justify-center">
->>>>>>> parent of 4d5621aa (added routes and aboutme)
-=======
-                    <p className="flex justify-center">
->>>>>>> parent of 4d5621aa (added routes and aboutme)
-=======
-                    <p className="flex justify-center">
->>>>>>> parent of 4d5621aa (added routes and aboutme)
-=======
-                    <p className="flex justify-center">
->>>>>>> parent of 4d5621aa (added routes and aboutme)
+
                         I am a Computer Engineering student at the University of Toronto and an aspiring software engineer. 
                     </p>
                     <div className="flex justify-center">
@@ -40,35 +17,14 @@ export default function About(){
                             Contact Me
                         </a>
                         <a
-<<<<<<< HEAD
+
                             href="./resume.pdf"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
                             className="ml-4 inline-flex text-gray-400 bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 hover:text-white rounded text-lg">
-=======
-                            href="#./resume.pdf"
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
->>>>>>> parent of 08ce1ecb (centered about text and linked resume properly)
-=======
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
->>>>>>> parent of 4d5621aa (added routes and aboutme)
-=======
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
->>>>>>> parent of 4d5621aa (added routes and aboutme)
-=======
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
->>>>>>> parent of 4d5621aa (added routes and aboutme)
-=======
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
->>>>>>> parent of 4d5621aa (added routes and aboutme)
-=======
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
->>>>>>> parent of 4d5621aa (added routes and aboutme)
                             Resume
-                        </a>                  
+                        </a>
+   
+                 
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
