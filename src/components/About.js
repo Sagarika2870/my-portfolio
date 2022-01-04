@@ -16,11 +16,14 @@ export default function About(){
                         I am a Computer Engineering student at the University of Toronto and an aspiring software engineer. 
                     </p>
                     <div className="flex justify-center" style="margin-top: 50px;">
-                        <a     
-                            href='#contact'
+                        
+                        <Link to="/aboutme">
+                            <a     
+                            
                             className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                            Contact Me
+                            About Me
                             </a>
+                        </Link>
                         <a
 <<<<<<< HEAD
                             href="./resume.pdf"
