@@ -6,7 +6,7 @@ export default function About(){
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Hi, I'm Sagarika! 
                     </h1> 
-                    <p>
+                    <p className="flex justify-center">
                         I am a Computer Engineering student at the University of Toronto and an aspiring software engineer. 
                     </p>
                     <div className="flex justify-center">
@@ -16,7 +16,7 @@ export default function About(){
                             Contact Me
                         </a>
                         <a
-                            href="#./resume.pdf"
+                            href="./resume.pdf"
                             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                             Resume
                         </a>                  
