@@ -8,10 +8,14 @@ export default function About(){
                     </h1> 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <p className="flex justify-center text-white">
 =======
                     <p>
 >>>>>>> parent of 08ce1ecb (centered about text and linked resume properly)
+=======
+                    <p className="flex justify-center">
+>>>>>>> parent of 4d5621aa (added routes and aboutme)
 =======
                     <p className="flex justify-center">
 >>>>>>> parent of 4d5621aa (added routes and aboutme)
@@ -27,11 +31,15 @@ export default function About(){
 <<<<<<< HEAD
                             href="./resume.pdf"
 <<<<<<< HEAD
+<<<<<<< HEAD
                             className="ml-4 inline-flex text-gray-400 bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 hover:text-white rounded text-lg">
 =======
                             href="#./resume.pdf"
                             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
 >>>>>>> parent of 08ce1ecb (centered about text and linked resume properly)
+=======
+                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+>>>>>>> parent of 4d5621aa (added routes and aboutme)
 =======
                             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
 >>>>>>> parent of 4d5621aa (added routes and aboutme)
