@@ -2,7 +2,7 @@ import React from "react";
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Home from "./components/pages/Home";
@@ -13,12 +13,12 @@ export default function App() {
       <Navbar />
       <About />
       <Projects />
-      <Switch>
+      <Routes>
           <Route path='/' exact component={Home}/>
-      </Switch>
+      </Routes>
       <Skills />
       <Contact />
-      {this.props.children}
+      {/* {this.props.children} */}
     </main>
   );
 }
