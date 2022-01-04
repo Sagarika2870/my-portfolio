@@ -1,5 +1,3 @@
-import {Link } from 'react-router';
-
 export default function About(){
     return(
         <section id="about">
@@ -16,14 +14,11 @@ export default function About(){
                         I am a Computer Engineering student at the University of Toronto and an aspiring software engineer. 
                     </p>
                     <div className="flex justify-center" style="margin-top: 50px;">
-                        
-                        <Link to="/aboutme">
-                            <a     
-                            
+                        <a
+                            href="#aboutme"
                             className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                             About Me
-                            </a>
-                        </Link>
+                        </a>
                         <a
 <<<<<<< HEAD
                             href="./resume.pdf"
