@@ -39,8 +39,6 @@ export const skills = [
   "Python",
   "C",
   "C++ (in progress)",
-  "C# (in progress)",
-  "Unity (in progress)",
   "Javascript (in progress)",
   "React (in progress)",
   "HTML",

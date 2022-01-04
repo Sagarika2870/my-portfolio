@@ -13,7 +13,6 @@ export default function App() {
       <Projects />
       <Skills />
       <Contact />
-      {this.props.children}
     </main>
   );
 }
