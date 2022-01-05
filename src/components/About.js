@@ -9,6 +9,7 @@ export default function About(){
                     <p className="flex text-center">
 
                         I am a Computer Engineering student at the University of Toronto and an aspiring software engineer. 
+        
                     </p>
                     <div className="flex justify-center ">
                         
@@ -28,7 +29,7 @@ export default function About(){
                  
                     </div>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <div className="lg:max-w-lg lg:w-5/6 md:w-1/2 w-5/6">
                     <img
                         className="object-cover object-center rounded-full"
                         alt="My Picture"
