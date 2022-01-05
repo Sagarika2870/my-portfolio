@@ -12,7 +12,7 @@ export default function Projects() {
             Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            filler
+            Here are some projects I have done!
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -24,7 +24,7 @@ export default function Projects() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-3/4 h-3/4 object-contain object-center border-1 border-cyan-800"
+                  className="absolute inset-0 w-fit h-fit object-contain object-center "
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-cyan-800 bg-cyan-900 opacity-0 hover:opacity-100">
