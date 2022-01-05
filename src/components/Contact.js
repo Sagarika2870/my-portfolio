@@ -33,13 +33,19 @@ export default function Contact() {
                         <div className="lg:w-1/2 px-10 mt-4 lg:mt-0">
                             <a className="text-sky-900 leading-relaxed center"> 
                                 <a href= "mailto:sagarika2870@gmail.com">
-                                    <img src="./email_logo.png" alt="Email Logo" className="sm:container"/> sagarika2870@gmail.com
+                                    <img src="./email_logo.png" alt="Email Logo" className="sm:container"/> 
+                                        <span>
+                                            sagarika2870@gmail.com
+                                        </span>
                                 </a>                                
                             </a>
                             <a className="text-sky-900 leading-relaxed">
                                 <a href="https://www.linkedin.com/in/sagarika-rabindranath/">
                                     <img src="./linkedin_logo.png"/>
-                                    linkedin.com/in/sagarika-rabindranath/
+                                        <span>
+                                            linkedin.com/in/sagarika-rabindranath/
+                                        </span>
+                                    
                                 </a>
 
                             </a>
