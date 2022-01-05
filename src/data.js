@@ -45,4 +45,5 @@ export const skills = [
   "React (in progress)",
   "HTML",
   "CSS",
+  "Git",
 ];

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-sky-400 md:sticky top-0 z-10">
+    <header className="bg-cyan-400 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
@@ -21,7 +21,7 @@ export default function Navbar() {
         </nav>
         <a
           href="#contact"
-          className="inline-flex items-center bg-sky-800 border-0 py-1 px-3 focus:outline-none hover:bg-sky-700 rounded text-white mt-4 md:mt-0">
+          className="inline-flex items-center bg-cyan-800 border-0 py-1 px-3 focus:outline-none hover:bg-cyan-700 rounded text-white mt-4 md:mt-0">
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
