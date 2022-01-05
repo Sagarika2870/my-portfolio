@@ -30,11 +30,10 @@ export default function Contact() {
             <div className="container mx-auto flex sm:flex-nowrap flex-wrap">
                     <div className="bg-sky-200 relative flex flex-wrap py-6 rounded shadow-md">
 
-                        <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                            <a className="text-sky-900 leading-relaxed"> 
+                        <div className="lg:w-1/2 px-10 mt-4 lg:mt-0">
+                            <a className="text-sky-900 leading-relaxed center"> 
                                 <a href= "mailto:sagarika2870@gmail.com">
-                                    <img src="./email_logo.png" alt="Email Logo"/>
-                                    sagarika2870@gmail.com
+                                    <img src="./email_logo.png" alt="Email Logo" className="sm:container"/> sagarika2870@gmail.com
                                 </a>                                
                             </a>
                             <a className="text-sky-900 leading-relaxed">
