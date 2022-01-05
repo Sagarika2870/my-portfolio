@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Cont (){
-    <div id="contact">
+    <div id="cont">
     <a href="mailto:sagarika2870@gmail.com">
       <img class="contactlogo" src="logo/email_logo.png" />
       sagarika2870@gmail.com</a
