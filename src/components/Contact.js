@@ -1,5 +1,5 @@
 import React from "react";
-import email from "../../public/email_logo.png";
+
 
 export default function Contact() {
     // const [name, setName] = React.useState("");
@@ -33,7 +33,7 @@ export default function Contact() {
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <a className="text-sky-900 leading-relaxed"> 
                                 <a href= "mailto:sagarika2870@gmail.com">
-                                    <img src={email} alt="Email Logo"/>
+                                    <img src="./email_logo.png" alt="Email Logo"/>
                                     sagarika2870@gmail.com
                                 </a>                                
                             </a>
