@@ -17,10 +17,14 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
+          <a href="./Sagarika_Resume.pdf"
+            className="mr-5 hover:text-white">
+            Resume
+          </a>
 
         </nav>
         <a
-          href="#contact"
+          href="#cont"
           className="inline-flex items-center bg-sky-800 border-0 py-1 px-3 focus:outline-none hover:bg-sky-700 rounded text-white mt-4 md:mt-0">
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
