@@ -39,10 +39,10 @@ export default function Contact() {
                         style={{ filter: "opacity(0.7)" }}
                         src="https://www.google.com/maps/embed/v1/place?q=toronto&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     />
-                    <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+                    <div className="bg-sky-200 relative flex flex-wrap py-6 rounded shadow-md">
 
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                            <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                            <h2 className="title-font font-semibold text-sky-900 tracking-widest text-xs">
                                 EMAIL
                             </h2>
                             <a className="text-indigo-400 leading-relaxed">
