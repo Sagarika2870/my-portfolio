@@ -6,7 +6,7 @@ export default function About(){
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Hi, I'm Sagarika! 
                     </h1> 
-                    <p className="flex justify-center">
+                    <p className="flex text-center">
 
                         I am a Computer Engineering student at the University of Toronto and an aspiring software engineer. 
                     </p>
