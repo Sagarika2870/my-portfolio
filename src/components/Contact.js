@@ -1,5 +1,5 @@
 import React from "react";
-import email from "./email_logo.png";
+import email from "../../public/email_logo.png";
 
 export default function Contact() {
     // const [name, setName] = React.useState("");
