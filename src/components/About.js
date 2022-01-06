@@ -7,10 +7,9 @@ export default function About(){
                         Hi, I'm Sagarika! 
                     </h1> 
                     <p className="flex text-justify">
-                        <span class="inline-block">
                             I am a Computer Engineering student at the University of Toronto and seeking internships for Summer 2022.
-                        </span> 
-                        My long-term goals are to 
+
+                            My long-term goals are to 
                          
 
                         

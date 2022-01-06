@@ -26,7 +26,7 @@ export default function Contact() {
     return (
       <section id="contact" className="relative">
         <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <div className="lg:w-2/3 md:w-1/2 bg-gray-700 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
               width="100%"
               height="100%"
@@ -38,19 +38,19 @@ export default function Contact() {
               style={{ filter: "opacity(0.7)" }}
               src="https://www.google.com/maps/embed/v1/place?q=Downtown+Toronto&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
             />
-            <div className="bg-sky-900 relative flex flex-wrap py-6 rounded shadow-md">
+            <div className="bg-sky-400 relative flex flex-wrap py-6 rounded shadow-md">
  
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   EMAIL
                 </h2>
-                <a className="text-sky-400 leading-relaxed">
+                <a className="text-sky-900 leading-relaxed">
                   sagarika2870@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <p className="leading-relaxed">647-923-7036</p>
+                <a className="text-sky-900 leading-relaxed">647-923-7036</a>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function Contact() {
                     </div>
                     <button
                         type="submit"
-                        className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        className="text-white bg-sky-500 border-0 py-2 px-6 focus:outline-none hover:bg-sky-600 rounded text-lg">
                         Submit
                     </button>
                 </form>

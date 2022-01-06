@@ -10,15 +10,15 @@ export default function Navbar() {
             Sagarika Rabindranath
           </a>
         </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-cyan-900 justify-center">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-sky-900 justify-center">
           <a href="#projects" className="mr-5 hover:text-white">
             Projects
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#skills" className="mr-5 text-lg hover:text-white">
             Skills
           </a>
           <a href="./Sagarika_Resume.pdf"
-            className="mr-5 hover:text-white">
+            className="mr-5 text-lg hover:text-white">
             Resume
           </a>
 
