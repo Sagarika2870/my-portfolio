@@ -10,7 +10,7 @@ export default function About(){
 
                         I am a Computer Engineering student at the University of Toronto and seeking internships for Summer 2022.
                         <span class="block">
-                            My
+                            My aspirations 
                         </span>
                          
 

@@ -27,19 +27,19 @@ export default function Contact() {
 
     return (
         <section id="contact" className="relative">
-            <div className="container mx-auto flex sm:flex-nowrap px-5 flex-wrap">
+            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <div className="bg-sky-200 relative flex flex-wrap py-6 rounded shadow-md center">
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-cyan-900 text-center">
+                        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-cyan-900 text-center">
                             Contact Me
                             
-                    </h1>
+                        </h1>
 
                         <div className="lg:w-1/2 px-20 mt-4 lg:mt-0 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
                             <a className="text-sky-900 leading-relaxed center text-center"> 
-                                <span class="block">
+                                <span className="block">
                                     <a href= "mailto:sagarika2870@gmail.com">
-                                        <img src="./email_logo.png" alt="Email Logo" class="self-center w-5 h-5 mx-1"/> 
-                                            <span class="inline-flex">sagarika2870@gmail.com</span>
+                                        <img src="./email_logo.png" alt="Email Logo" className="self-center w-5 h-5 mx-1"/> 
+                                            <span className="inline-flex">sagarika2870@gmail.com</span>
                                     </a>
                                 </span>                               
                             

@@ -11,6 +11,9 @@ export default function Skills() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-sky-800 mb-4">
             Skills &amp; Technologies
           </h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            I am currently working towards developing many new skills outside the classroom!
+          </p>
 
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
