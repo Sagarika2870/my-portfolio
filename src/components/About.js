@@ -9,9 +9,7 @@ export default function About(){
                     <p className="flex text-justify">
 
                         I am a Computer Engineering student at the University of Toronto and seeking internships for Summer 2022.
-                        <span class="block">
-                            My aspirations 
-                        </span>
+                        <span class="inline-block"> My aspirations </span>
                          
 
                         
