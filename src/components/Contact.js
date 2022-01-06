@@ -27,7 +27,7 @@ export default function Contact() {
 
     return (
         <section id="contact" className="relative">
-            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <div className="container mx-auto flex flex-wrap px-10 flex-col md:flex-row items-center">
                     <div className="bg-sky-200 relative flex flex-wrap py-6 rounded shadow-md center">
                         <h1 className="block sm:text-4xl text-3xl font-medium title-font mb-4 text-cyan-900 text-center">
                             Contact Me
