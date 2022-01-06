@@ -1,61 +1,38 @@
 import React from "react";
 
-
 export default function Contact() {
-    // const [name, setName] = React.useState("");
-    // const [email, setEmail] = React.useState("");
-    // const [message, setMessage] = React.useState("");
-
-    // function encode(data) {
-    //     return Object.keys(data)
-    //         .map(
-    //             (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-    //         )
-    //         .join("&");
-    // }
-
-    // function handleSubmit(e) {
-    //     e.preventDefault();
-    //     fetch("/", {
-    //         method: "POST",
-    //         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    //         body: encode({ "form-name": "contact", name, email, message }),
-    //     })
-    //         .then(() => alert("Message sent!"))
-    //         .catch((error) => alert(error));
-    // }
-
     return (
-        <section id="contact" className="relative">
-            <div className="container mx-auto flex flex-wrap px-10 flex-col md:flex-row items-center">
-                    <div className="bg-sky-200 relative flex flex-wrap py-6 rounded shadow-md center">
-                        <h1 className="block sm:text-4xl text-3xl font-medium title-font mb-4 text-cyan-900 text-center">
-                            Contact Me
-                            
-                        </h1>
-
-                        <div className="lg:w-1/2 px-20 mt-4 lg:mt-0 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-                            <a className="text-sky-900 leading-relaxed center text-center"> 
-                                <span className="block">
-                                    <a href= "mailto:sagarika2870@gmail.com">
-                                        <img src="./email_logo.png" alt="Email Logo" className="self-center w-5 h-5 mx-1"/> 
-                                            <span className="inline-flex">sagarika2870@gmail.com</span>
-                                    </a>
-                                </span>                               
-                            
-                                <a href="https://www.linkedin.com/in/sagarika-rabindranath/">
-                                     
-                                    <span > 
-                                        <img class="self-center w-5 h-5 mx-1" src="./linkedin_logo.png"/>
-                                            <span> linkedin.com/in/sagarika-rabindranath/ </span>
-                                    </span>
-                                </a>
-                                
-                            </a>
-
-                        </div>
-                    </div>
-                {/* <form
+      <section id="contact" className="relative">
+        <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+            <iframe
+              width="100%"
+              height="100%"
+              title="map"
+              className="absolute inset-0"
+              frameBorder={0}
+              marginHeight={0}
+              marginWidth={0}
+              style={{ filter: "opacity(0.7)" }}
+              src="https://www.google.com/maps/embed/v1/place?q=Downtown+Toronto&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            />
+            <div className="bg-sky-900 relative flex flex-wrap py-6 rounded shadow-md">
+ 
+              <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                  EMAIL
+                </h2>
+                <a className="text-sky-400 leading-relaxed">
+                  sagarika2870@gmail.com
+                </a>
+                <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                  PHONE
+                </h2>
+                <p className="leading-relaxed">647-923-7036</p>
+              </div>
+            </div>
+          </div>
+                <form
                     netlify
                     name="contact"
                     onSubmit={handleSubmit}
@@ -105,7 +82,7 @@ export default function Contact() {
                         className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                         Submit
                     </button>
-                </form> */}
+                </form>
             </div>
         </section>
     );
