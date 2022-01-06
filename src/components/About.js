@@ -6,9 +6,14 @@ export default function About(){
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-sky-900">
                         Hi, I'm Sagarika! 
                     </h1> 
-                    <p className="flex text-center">
+                    <p className="flex text-justify">
 
-                        I am a Computer Engineering student at the University of Toronto and an aspiring software engineer. 
+                        I am a Computer Engineering student at the University of Toronto and seeking internships for Summer 2022.
+                        <span class="block">
+                            My
+                        </span>
+                         
+
                         
 
         
