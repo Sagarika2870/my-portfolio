@@ -24,7 +24,7 @@ export default function Navbar() {
 
         </nav>
         <a
-          href="#cont"
+          href="#contact"
           className="inline-flex items-center bg-sky-800 border-0 py-1 px-3 focus:outline-none hover:bg-sky-700 rounded text-white mt-4 md:mt-0">
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
