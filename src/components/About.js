@@ -12,9 +12,11 @@ export default function About(){
                     <p className="flex text-justify">
                             I am a Computer Engineering student at the University of Toronto and seeking internships for Summer 2022.
                     </p>
-                    {/* <p>
-
-                    </p> */}
+                    <p>
+                            My long-term goal is to leverage my technical skills to contribute to the growing technology industry and improve lives.
+                            Since I am still early on in my learning journey, I am participating in various opportunites to gain exposure in the programming world. 
+                            From hackathons to volunteer opportunities, I am able to develop my technical skills and learn how technology is impacting various facets of life.
+                    </p>
 
                 </div>
                 <div className="lg:max-w-lg lg:w-5/6 md:w-1/2 w-5/6">
