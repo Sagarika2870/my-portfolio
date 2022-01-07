@@ -47,3 +47,5 @@ export const skills = [
   "CSS",
   "Git",
 ];
+
+export const text = "Since I am still early on in my learning journey, I have taken many opportunities to get exposure to ";
