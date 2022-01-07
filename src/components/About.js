@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import {data} from "../data";
+
+
 export default function About(){
-    const [showMore, setShowMore] = useState(false);
-    const {text} = data;
+
     return(
         <section id="about">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -13,12 +12,9 @@ export default function About(){
                     <p className="flex text-justify">
                             I am a Computer Engineering student at the University of Toronto and seeking internships for Summer 2022.
                     </p>
-                    <p>
-                        {showMore ? text: `${text.substring(0,250)}`};
-                        <button className="btn" onClick={() => setShowMore(!showMore)}>
-                            {showMore ? "Read Less": "Read more"}
-                        </button>                   
-                    </p>
+                    {/* <p>
+
+                    </p> */}
 
                 </div>
                 <div className="lg:max-w-lg lg:w-5/6 md:w-1/2 w-5/6">
