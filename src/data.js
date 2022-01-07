@@ -48,4 +48,4 @@ export const skills = [
   "Git",
 ];
 
-export const text = "Since I am still early on in my learning journey, I have taken many opportunities to get exposure to ";
+export const data = "Since I am still early on in my learning journey, I have taken many opportunities to get exposure to ";
