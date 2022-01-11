@@ -44,13 +44,13 @@ export default function Contact() {
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   EMAIL
                 </h2>
-                <a className="text-sky-900 leading-relaxed">
+                <a className="text-sky-900 leading-relaxed" href="mailto:sagarika2870@gmail.com">
                   sagarika2870@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                  PHONE
+                  LINKEDIN
                 </h2>
-                <a className="text-sky-900 leading-relaxed">647-923-7036</a>
+                <a className="text-sky-900 leading-relaxed" href="https://www.linkedin.com/in/sagarika-rabindranath/">linkedin.com/in/sagarika-rabindranath</a>
               </div>
             </div>
           </div>
