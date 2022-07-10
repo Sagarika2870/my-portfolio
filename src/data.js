@@ -38,9 +38,7 @@ export const projects = [
 export const skills = [
   "Python",
   "C",
-  "C++ (in progress)",
-  "Unity (in progress)",
-  "C# (in progress)",
+  "C++",
   "Javascript (in progress)",
   "React (in progress)",
   "HTML",
