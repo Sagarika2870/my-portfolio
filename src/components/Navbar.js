@@ -3,22 +3,22 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-indigo-200 md:sticky top-0 z-10 opacity-90">
+    <header className="bg-indigo-400 md:sticky top-0 z-10 opacity-80">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
+        <a className="title-font font-medium text-indigo-100 mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
             Sagarika Rabindranath
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-indigo-900 justify-center">
-          <a href="#projects" className="mr-5 text-lg hover:text-white">
+          <a href="#projects" className="mr-5 text-lg hover:text-indigo-100">
             Projects
           </a>
-          <a href="#skills" className="mr-5 text-lg hover:text-white">
+          <a href="#skills" className="mr-5 text-lg hover:text-indigo-100">
             Skills
           </a>
           <a href="./Sagarika_Resume.pdf"
-            className="mr-5 text-lg hover:text-white">
+            className="mr-5 text-lg hover:text-indigo-100">
             Resume
           </a>
           {/* <a href="#photos" className="mr-5 text-lg hover:text-white">

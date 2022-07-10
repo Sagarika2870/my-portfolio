@@ -38,19 +38,19 @@ export default function Contact() {
               style={{ filter: "opacity(0.7)" }}
               src="https://www.google.com/maps/embed/v1/place?q=Downtown+Toronto&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
             />
-            <div className="bg-sky-400 relative flex flex-wrap py-6 rounded shadow-md">
+            <div className="bg-indigo-400 relative flex flex-wrap py-6 rounded shadow-md">
  
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   EMAIL
                 </h2>
-                <a className="text-sky-900 leading-relaxed" href="mailto:sagarika2870@gmail.com">
+                <a className="text-indigo-900 leading-relaxed" href="mailto:sagarika2870@gmail.com">
                   sagarika2870@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                   LINKEDIN
                 </h2>
-                <a className="text-sky-900 leading-relaxed" href="https://www.linkedin.com/in/sagarika-rabindranath/">linkedin.com/in/sagarika-rabindranath</a>
+                <a className="text-indigo-900 leading-relaxed" href="https://www.linkedin.com/in/sagarika-rabindranath/">linkedin.com/in/sagarika-rabindranath</a>
               </div>
             </div>
           </div>
@@ -59,11 +59,11 @@ export default function Contact() {
                     name="contact"
                     onSubmit={handleSubmit}
                     className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                    <h2 className="text-sky-900 sm:text-4xl text-3xl mb-1 font-medium title-font">
+                    <h2 className="text-indigo-900 sm:text-4xl text-3xl mb-1 font-medium title-font">
                         Contact Me
                     </h2>
                     <div className="relative mb-4">
-                        <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+                        <label htmlFor="name" className="leading-7 text-sm text-indigo-700">
                             Name
                         </label>
                         <input
@@ -75,7 +75,7 @@ export default function Contact() {
                         />
                     </div>
                     <div className="relative mb-4">
-                        <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+                        <label htmlFor="email" className="leading-7 text-sm text-gray-700">
                             Email
                         </label>
                         <input
@@ -89,7 +89,7 @@ export default function Contact() {
                     <div className="relative mb-4">
                         <label
                             htmlFor="message"
-                            className="leading-7 text-sm text-gray-400">
+                            className="leading-7 text-sm text-indigo-700">
                             Message
                         </label>
                         <textarea
@@ -101,7 +101,7 @@ export default function Contact() {
                     </div>
                     <button
                         type="submit"
-                        className="text-white bg-sky-500 border-0 py-2 px-6 focus:outline-none hover:bg-sky-600 rounded text-lg">
+                        className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                         Submit
                     </button>
                 </form>
