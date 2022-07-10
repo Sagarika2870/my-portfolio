@@ -4,14 +4,14 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-200 body-font">
+    <section id="projects" className="text-gray-400 bg-indigo-200 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <CodeIcon className="mx-auto inline-block w-10 mb-4 text-sky-800" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-sky-900">
+          <CodeIcon className="mx-auto inline-block w-10 mb-4 text-indigo-800" />
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-indigo-900">
             Projects
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-sky-900">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-indigo-900">
             Here are some projects I have done!
           </p>
         </div>
@@ -27,8 +27,8 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-contain object-center "
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-cyan-800 bg-cyan-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-indigo-800 bg-indigo-900 opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">
