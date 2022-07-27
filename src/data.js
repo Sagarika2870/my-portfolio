@@ -16,12 +16,12 @@ export const projects = [
     link: "https://github.com/Sagarika2870/Meet-The-Bears",
   },
   {
-    title: "Big Data Challenge",
-    subtitle: "Python and Azure",
+    title: "GIS Mapping Software",
+    subtitle: "C++, EZGL and GTK",
     description:
-      "Analyzes the correlation between political ideologies on promoting/interactingwith misinformation on Twitter",
-    image: "./twitter.png",
-    link: "https://github.com/Sagarika2870/Big-Data-Challenge",
+      "Mapping application that can find the shortest path between two intersections",
+    image: "./mapper.mp4",
+    link: "https://github.com/Sagarika2870/GIS-Mapping",
   },
   {
     title: "Finding Synonyms",
