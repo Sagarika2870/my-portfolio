@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "C++, EZGL and GTK",
     description:
       "Mapping application that can find the shortest path between two intersections",
-    image: "./mapper.mp4",
+    image: "./mapper.jpg",
     link: "https://github.com/Sagarika2870/GIS-Mapping",
   },
   {
