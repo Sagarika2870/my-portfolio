@@ -1,19 +1,19 @@
 export const projects = [
   {
-    title: "Seam Carving",
-    subtitle: "C",
+    title: "Neuro-Rehabilitation Software Tool Using Machine Learning",
+    subtitle: "Electron, Python, SQL",
     description:
-      "Image resizing technique that enlarges or shrinks images pixel-by-pixel",
-    image: "./Seam-carving.gif",
-    link: "https://github.com/Sagarika2870/Seam-Carving",
+      "Desktop application for health care professionals to input long egocentric videos and specify hand-object interactions that they want to see.",
+    image: "./patient.jpg",
+    link: "",
   },
   {
-    title: "Meet the Bears (In progress)",
-    subtitle: "Unity and C#",
+    title: "Speech Recognition for Accented Speech",
+    subtitle: "Python, Pytorch",
     description:
-      "Virtual and interactive polar bear habitat based on the Canadian Polar Bear Habitat",
-    image: "./polar-bear.jpg",
-    link: "https://github.com/Sagarika2870/Meet-The-Bears",
+      "This project aims to develop a simple speech-to-Text recognition system that accurately transcribes spoken words while accommodating various accents and dialects.",
+    image: "./speech.png",
+    link: "https://github.com/Sagarika2870/speech-recognition",
   },
   {
     title: "GIS Mapping Software",
@@ -24,12 +24,12 @@ export const projects = [
     link: "https://github.com/Sagarika2870/GIS-Mapping",
   },
   {
-    title: "Finding Synonyms",
-    subtitle: "Python",
+    title: "Seam Carving",
+    subtitle: "C",
     description:
-      "Finding synonyms of words using the symantic similarity",
-    image: "./synonyms.jpg",
-    link: "https://github.com/Sagarika2870/Finding-Synonyms",
+      "Image resizing technique that enlarges or shrinks images pixel-by-pixel",
+    image: "./Seam-carving.gif",
+    link: "https://github.com/Sagarika2870/Seam-Carving",
   },
 ];
 
@@ -37,10 +37,11 @@ export const projects = [
 
 export const skills = [
   "Python",
+  "Java/Kotlin",
   "C",
   "C++",
-  "Javascript (in progress)",
-  "React (in progress)",
+  "Javascript",
+  "React ",
   "HTML",
   "CSS",
   "Git",
