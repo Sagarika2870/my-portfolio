@@ -10,12 +10,11 @@ export default function About(){
                         Hi, I'm Sagarika! 
                     </h1> 
                     <p className="flex text-justify space-y-2 text-indigo-700">
-                            I am a Computer Engineering student at the University of Toronto and seeking internships for Spring 2023.
+                            I am in my final year of Computer Engineering student at the University of Toronto and seeking new grad positions for Spring 2025.
                     </p>
                     <p className="flext text-justify text-indigo-700">
                             My long-term goal is to leverage my technical skills to contribute to the growing technology industry and improve lives.
                             Since I am still early on in my learning journey, I am participating in various opportunites to gain exposure in the programming world. 
-                            From hackathons to volunteer opportunities, I am able to develop my technical skills and learn how technology is impacting various facets of life.
                     </p>
 
                 </div>
